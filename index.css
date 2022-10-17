@@ -1,0 +1,80 @@
+*, ::before, ::after {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #CECECE;
+}
+
+.contenedor-principal {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  height: 700px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px;
+}
+
+.grafico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.legend-label text {
+  font: 12px sans-serif;
+}
+
+.axis-text {
+  font: 18px sans-serif;
+}
+
+#title {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#description {
+  margin: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.firma {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+#tooltip {
+  display: flex;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.795);
+  padding: 10px 15px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  font: 18px sans-serif;
+}
+
+.cell:hover {
+  stroke: black;
+}
